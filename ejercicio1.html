@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script defer src="./assets/js/ejercicio1.js"></script>
+</head>
+
+<body>
+    <div style="width: 40%;margin: 0 auto">
+        <h1>Escríbenos</h1>
+        <form id="formContacto">
+            <p id="mensajeFormulario"></p>
+            <div style="display: flex;flex-direction: column;">
+                <label for="nombreCompleto">Nombre completo:</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto">
+                <p id="mensajeNombreCompleto"></p>
+            </div>
+            <div style="display: flex;flex-direction: column;">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto">
+                <p id="mensajeAsunto"></p>
+            </div>
+            <div style="display: flex;flex-direction: column;">
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="msg" cols="20"></textarea>
+                <p id="mensajeMsg"></p>
+            </div>
+            <div>
+                <input type="submit" value="Enviar mensaje">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
